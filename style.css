@@ -1,0 +1,187 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  /* display: flex; */
+  height: 100px;
+  border: solid black 1px;
+  background-color: green;
+  /* align-items: center; */
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 900;
+  width: 100%;
+  background-color: green;
+  color: yellow;
+  border: solid black 1px;
+  padding: 10px 0;
+  letter-spacing: 0.5rem;
+}
+
+h2 {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+  color: green;
+  padding: 10px 0;
+  letter-spacing: 0.5rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  border: solid black 1px;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.75rem;
+  color: yellow;
+}
+
+a:hover {
+  color: blue;
+}
+
+.game-header-container {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+  border: solid black 1px;
+  height: 2rem;
+  padding: 0 2rem;
+}
+
+#game-header-name {
+  background-color: orange;
+  border: 1px solid black;
+}
+
+#team-badge {
+}
+
+.play-window-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  border: 1px solid black;
+  height: 300px;
+  padding: 5px;
+}
+
+#play-window {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.commentary-container {
+  height: 50px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#commentary {
+  background-color: darkmagenta;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  border: 1px solid black;
+  margin: 2rem 0;
+  padding: 5px;
+}
+
+#button-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  width: 30%;
+  background-color: brown;
+}
+
+#button-one:hover {
+  background-color: darkcyan;
+}
+
+#button-one:active {
+  transition: 0.3s;
+  transform: scale(0.9);
+}
+
+#button-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  width: 30%;
+  background-color: brown;
+}
+
+#button-two:hover {
+  background-color: darkcyan;
+}
+
+#button-two:active {
+  transition: 0.3s;
+  transform: scale(0.9);
+}
+
+#button-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  width: 30%;
+  background-color: brown;
+}
+
+#button-three:hover {
+  background-color: darkcyan;
+}
+
+#button-three:active {
+  transition: 0.3s;
+  transform: scale(0.9);
+}
+
+/* <div id="button-one"></div>
+<div id="button-two"></div>
+<div id="button-three"></div> */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  background-color: green;
+  color: yellow;
+}

@@ -1,0 +1,54 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-name-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.form-team-container {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.team-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  border: solid black 1px;
+}
+
+.team-box:hover {
+  background-color: darkcyan;
+}
+
+.team-box:active {
+  transition: 0.3s;
+  transform: scale(0.9);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.play-button {
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: green;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
